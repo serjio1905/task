@@ -1,0 +1,40 @@
+.req-edit-form {
+  /* display: inline-flex;
+  flex-direction: row;
+  align-self: center; */
+  margin: 20px;
+}
+
+.req-edit-form form {
+  padding: 20px;
+  max-width: 700px;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+}
+
+.req-edit-btn-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.req-row svg {
+  cursor: pointer;
+}
+
+.btn-standart {
+  width: 10em
+}
+
+.list {
+  margin: 30px;
+}
+
+.list-header {
+  margin-bottom: 20px
+}
+
+.th-center {
+  text-align: center
+}

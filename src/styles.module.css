@@ -1,0 +1,22 @@
+.LoginContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.LoginContainer > form {
+    margin-top: 5%;
+    border-radius: 5px;
+    width: 100vh;
+    background-color: rgba(0, 0, 204, .1);
+    padding: 20px;
+}
+.submitBtn {
+    width: 50%
+}
+.main {
+    display: grid;
+    grid-template-columns: 10em auto;
+}
+.mainItem {
+    border: 1px solid blue;
+}
