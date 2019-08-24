@@ -51,7 +51,7 @@ class ReqList extends Component {
                 <tr key={req.no}
                     className="req-row">
                     <td>{req.no}</td>
-                    <td>{moment(req.date).format('MMMM Do YYYY, h:mm:ss')}</td>
+                    <td>{moment.unix(req.date).format('MMMM Do YYYY, h:mm:ss')}</td>
                     <td>{req.firm}</td>
                     <td>{req.fio}</td>
                     <td>{req.position}</td>

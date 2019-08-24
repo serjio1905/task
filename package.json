@@ -148,5 +148,5 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://5d34a45c.ngrok.io"
 }
